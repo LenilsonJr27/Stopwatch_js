@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     padding-top: 3rem;
     background-color: #B1C9EF;
     height: 100vh;
@@ -20,7 +20,7 @@
 
 .timer{
     display: flex;
-    font-size: 55px;
+    font-size: 75px;
     font-weight: bold;
     color: #000;
 }
@@ -40,7 +40,7 @@
 }
 
 #miliseconds{
-    font-size: 30px;
+    font-size: 10px;
     color: #000;
 }
 
