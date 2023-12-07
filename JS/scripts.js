@@ -18,6 +18,7 @@ resumeBtn.addEventListener("click", resumeTimer);
 resetBtn.addEventListener("click", resetTimer);
 
 function startTimer(){
+    isPaused = false;
     interval = setInterval(() =>{
         if(!isPaused){
             milliseconds += 10;
