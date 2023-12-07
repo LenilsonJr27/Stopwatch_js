@@ -39,9 +39,14 @@
     color: #000;
 }
 
+#seconds{
+    min-width: 130px;
+}
+
 #milliseconds{
     font-size: 40px;
     color: #000;
+    min-width: 110px;
 }
 
 .buttons{
